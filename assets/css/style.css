@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Manrope:wght@400;700&display=swap');
+html {font-size: 100%;} /*16px*/
+
+header {
+  background-image: url('../imgs/tea_banner.png');
+  height: 18em;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-family:'Dancing Script', cursive;
+  margin: 0;
+  font-size: 5em;
+  padding: 4.5rem 0 0 6rem;
+}
+
+header p {
+  font-family:'Dancing Script', cursive;
+  font-size: 2em;
+  margin: 0;
+  padding-left: 6.2rem;
+}
+
+section {
+  background-color: #ECFDFD;
+  padding-top: 5em;
+}
+
+section table {
+  margin: auto;
+}
+
+section td{
+  padding-bottom: 5em;
+}
+
+section img{
+  height: 276px;
+}
+
+section span {
+  font-family: 'Manrope';
+  padding-left: 6em;
+  font-weight: 700;
+}
+
+section p {
+  font-family: 'Manrope';
+  padding-left: 6em;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #73AB89;
+  height: 3em;
+  line-height: 3em;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Manrope';
+}
+
+
